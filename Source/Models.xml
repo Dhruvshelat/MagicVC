@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="13030.00"/>
+    <WithIsn val="Y"/>
+    <LastIsn val="2"/>
+    <LastIsnFolder val="0"/>
+    <Folders/>
+  </Header>
+
+  <ModelsRepository>
+    <Models>
+      <Object id="1" name="m_alp">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="10"/>
+          <Size id="174" val="10"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="2" name="m_num">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="5"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="5"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+    </Models>
+  </ModelsRepository>
+
+</Application>
